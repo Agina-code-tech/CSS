@@ -1,0 +1,96 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f6ec;
+  /* cream for the whole page */
+}
+
+/* Center everything */
+.container {
+  max-width: 800px;
+  margin: 0 auto; /* This centers the container on the screen */
+  text-align: center; /* This centers text and inline elements like images */
+}
+
+.name {
+  color: green;
+}
+
+.Contact {
+  color: green;
+}
+
+.About {
+  color: green;
+}
+
+/* Section 1: Intro Styles */
+.intro-section {
+  background-color: #ffffff;
+  padding: 40px;
+  margin-bottom: 20px;
+}
+
+.profile-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%; /* This makes the image perfectly round */
+  object-fit: cover;
+  margin: 20px 0;
+}
+
+/* Section 2: Contact Form Styles */
+.contact-section {
+  background-color: #58a164; /* pink background for the whole section */
+  padding: 60px 20px;
+  text-align: center; /*center heading and form */
+}
+
+form {
+  width: 60%;
+  margin: 20px auto; /* center the form */
+  padding: 40px; /* space inside the form */
+  background-color: #58a164;
+  border-radius: 45px; /* this makes the form corners rounded */
+}
+
+/* FORM INPUTS */
+input,
+textarea {
+  width: 90%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 8px; /* also round the inputs for consistency */
+  border: 1px solid #ccc;
+}
+
+/* BUTTON */
+button {
+  background-color: blue;
+  color: white;
+  padding: 10px 60px;
+  border: none;
+  border-radius: 8px; /* round the button too */
+  cursor: pointer;
+}
+
+/* ===== SECTION STYLING ===== */
+
+section {
+  margin: 50px auto;
+  max-width: 700px;
+  padding: 20px;
+}
+
+/* FOOTER */
+footer {
+  width: 100%; /* span the entire screen */
+  background-color: rgb(198, 190, 190);
+  color: #333;
+  padding: 15px 0; /* vertical padding */
+  text-align: center;
+  margin: 0;
+  position: relative; /* default positioning */
+  bottom: 0; /*keeps footer at bottom if using fixed height layout */
+}

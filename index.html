@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My PROFILE</title>
+    <!--link to the external CSS file-->
+    <!--There's absolute and relative, I am using relative because my CSS is in the same folder as the HTML-->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--Main Container, div is a wrapper that lets me center everything easily.-->
+    <div class="container">
+      <!--introducing section to group related content-->
+      <!--class lets CSS target and style specific parts.-->
+
+      <section class="Intro section">
+        <h1 class="name"><strong>AGINA MITCHELLE</strong></h1>
+        <img src="me.JPG" alt="My photo" class="profile-img" />
+        <h2 class="About me">About Me</h2>
+        <p>
+          Greetings! My name is Agina Mitchelle. I am learning software
+          development and this is my first simple desktop webpage using HTML and
+          CSS. Thank you.
+        </p>
+      </section>
+
+      <section class="Contact">
+        <h2 class="Contact"><strong>CONTACT ME</strong></h2>
+        <form>
+          <input type="text" placeholder="Your Name" required /><br /><br />
+          <input type="email" placeholder="Add Email" required /><br /><br />
+          <textarea placeholder="Your message"></textarea><br /><br />
+          <button type="submit">send</button>
+        </form>
+      </section>
+    </div>
+    <footer>
+      <p>&copy; 2026 Agina Mitchelle's Portfolio. Created with ❤️ and HTML.</p>
+    </footer>
+  </body>
+</html>
